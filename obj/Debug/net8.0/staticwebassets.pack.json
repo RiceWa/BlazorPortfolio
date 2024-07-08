@@ -21,6 +21,22 @@
       "PackagePath": "staticwebassets/favicon.png"
     },
     {
+      "Id": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/JamesFitzePic(1).png",
+      "PackagePath": "staticwebassets/images/JamesFitzePic(1).png"
+    },
+    {
+      "Id": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/JamesFitzePic.jpg",
+      "PackagePath": "staticwebassets/images/JamesFitzePic.jpg"
+    },
+    {
+      "Id": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/JamesFitzePic.png",
+      "PackagePath": "staticwebassets/images/JamesFitzePic.png"
+    },
+    {
+      "Id": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/arrow.png",
+      "PackagePath": "staticwebassets/images/arrow.png"
+    },
+    {
       "Id": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/image1.jpg",
       "PackagePath": "staticwebassets/images/image1.jpg"
     },
