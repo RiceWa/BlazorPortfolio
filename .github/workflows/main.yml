@@ -10,7 +10,6 @@ on:
 
 jobs:
   deploy-to-github-pages:
-    # use ubuntu-latest image to run steps on
     runs-on: ubuntu-latest
 
     steps:
@@ -26,11 +25,14 @@ jobs:
       run: dotnet workload install wasm-tools
 
     - name: Publish .NET Core Project
-      run: dotnet publish ./Portfolio.csproj -c Release -o dist/Web --nologo
+      run: dotnet publish -c Release -o dist --nologo
+
+    - name: Add 404.html for client-side routing
+      run: echo '<!DOCTYPE html><html><head><meta http-equiv="refresh" content="0; url=./index.html"></head><body></body></html>' > dist/wwwroot/404.html
 
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         branch: gh-pages
-        folder: dist/Portfolio/wwwroot
+        folder: dist/wwwroot
         token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
