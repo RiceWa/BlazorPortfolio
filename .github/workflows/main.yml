@@ -26,10 +26,11 @@ jobs:
       run: dotnet workload install wasm-tools
 
     - name: Publish .NET Core Project
-      run: dotnet publish ./Portfolio.csproj -c Release -p:PublishDir=dist/Web --nologo
+      run: dotnet publish ./Portfolio.csproj -c Release -o dist/Web --nologo
 
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         branch: gh-pages
         folder: dist/Web/wwwroot
+        token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
