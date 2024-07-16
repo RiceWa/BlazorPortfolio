@@ -1,25 +1,38 @@
 ﻿@page "/projects"
 @rendermode InteractiveServer
 
-
-
 <PageTitle>Projects</PageTitle>
-
-
+<div class="title">
 <h1>Projects</h1>
 <p>Here is a list of websites I made with Blazor!</p>
+</div>
 
 <div class="grid-container">
     @foreach (var project in ProjectList)
     {
         <div class="grid-item">
-            <img src="@project.ImageUrl" alt="@project.Title" />
+            <div class="image-container">
+                <img src="@project.ImageUrl" alt="@project.Title" />
+                <div class="overlay">
+                    <a href="@project.GithubUrl" class="button left-button" target="_blank">Github</a>
+                    <a href="@project.PageUrl" class="button right-button" target="_blank">Go to page</a>
+                </div>
+            </div>
             <p>@project.Title</p>
         </div>
     }
 </div>
 
 <style>
+
+    .title {
+        text-align: center;
+    }
+
+    .title p {
+        font-size: 20px;
+    }
+
     .grid-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -30,60 +43,99 @@
     .grid-item {
         text-align: center;
         overflow: hidden;
-    }
-
-    .grid-item img {
-        width: 100%;
-        height: auto;
-        max-height: 200px; /* Adjust the height as needed */
-        object-fit: cover;
         border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        transition: transform 0.3s;
     }
 
-    .grid-item img:hover {
-        transform: scale(1.05);
-    }
-
-    .grid-item p {
+        .grid-item p {
         margin-top: 10px;
-        font-size: 1rem;
+        font-size: 18px;
         color: #333;
     }
 
-    @@ media (max-width: 768px) {
+    .image-container {
+        position: relative;
+        display: inline-block;
+        width: 400px; /* Set the desired width */
+        height: 180px; /* Set the desired height */
+        overflow: hidden;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s, filter 0.3s;
+    }
+
+    .image-container .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+        visibility: hidden;
+    }
+
+    .image-container:hover img {
+        transform: scale(1.3);
+        filter: opacity(0.2);
+    }
+
+    .image-container:hover .overlay {
+        visibility: visible;
+    }
+
+    .button {
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+
+    .button:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    @@media (max-width: 768px) {
         .grid-container {
             grid-template-columns: repeat(2, 1fr);
         }
     }
 
-    @@ media (max-width: 480px) {
+    @@media (max-width: 480px) {
         .grid-container {
             grid-template-columns: 1fr;
         }
     }
 </style>
 
-
 @code {
-     private List<Project> ProjectList = new List<Project>
+    private List<Project> ProjectList = new List<Project>
     {
-        new Project { ImageUrl = "images/image1.jpg", Title = "Project 1" },
-        new Project { ImageUrl = "images/image2.jpg", Title = "Project 2" },
-        new Project { ImageUrl = "images/image3.jpg", Title = "Project 3" },
-        new Project { ImageUrl = "images/image4.jpg", Title = "Project 4" },
-        new Project { ImageUrl = "images/image5.jpg", Title = "Project 5" },
-        new Project { ImageUrl = "images/image6.jpg", Title = "Project 6" },
-        new Project { ImageUrl = "images/image7.jpg", Title = "Project 7" },
-        new Project { ImageUrl = "images/image8.jpg", Title = "Project 8" },
-        new Project { ImageUrl = "images/image9.jpg", Title = "Project 9" },
-        // Add more projects as needed
+        new Project { ImageUrl = "images/image1.jpg", Title = "Project 1 - Portfolio Website", GithubUrl = "https://github.com/RiceWa/BlazorPortfolio", PageUrl = "" },
+        new Project { ImageUrl = "images/image2.jpg", Title = "Project 2 - Blog Website", GithubUrl = "https://github.com/RiceWa/BlazorBlog", PageUrl = "/projects" },
+        new Project { ImageUrl = "images/image3.jpg", Title = "Project 3 - Shopping Website", GithubUrl = "https://github.com/RiceWa/BlazorShop", PageUrl = "/projects" },
+        new Project { ImageUrl = "images/image4.jpg", Title = "Project 4 - Nothing Yet!", GithubUrl = "/projects", PageUrl = "/projects" },
+        new Project { ImageUrl = "images/image5.jpg", Title = "Project 5 - Nothing Yet!", GithubUrl = "/projects", PageUrl = "/projects" },
+        new Project { ImageUrl = "images/image6.jpg", Title = "Project 6 - Nothing Yet!", GithubUrl = "/projects", PageUrl = "/projects" },
+        new Project { ImageUrl = "images/image7.jpg", Title = "Project 7 - Nothing Yet!", GithubUrl = "/projects", PageUrl = "/projects" },
+        new Project { ImageUrl = "images/image8.jpg", Title = "Project 8 - Nothing Yet!", GithubUrl = "/projects", PageUrl = "/projects" },
+        new Project { ImageUrl = "images/image9.jpg", Title = "Project 9 - Nothing Yet!", GithubUrl = "/projects", PageUrl = "/projects" },
     };
 
     public class Project
     {
         public string? ImageUrl { get; set; }
         public string? Title { get; set; }
+        public string? GithubUrl { get; set; }
+        public string? PageUrl { get; set; }
     }
 }

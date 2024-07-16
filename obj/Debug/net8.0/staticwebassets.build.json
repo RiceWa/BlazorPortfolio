@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nk5LLp6DaA9ZebM6GpjHslxWQEtiuhref2/b796AcsQ=",
+  "Hash": "zfuNEl/pxepK2ghAm0jvcrAm4O1bYvgl8cSeszKvz4Q=",
   "Source": "Portfolio",
   "BasePath": "_content/Portfolio",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Portfolio/wwwroot",
       "Source": "Portfolio",
-      "ContentRoot": "/home/sho/Documents/Blazor/Portfolio/wwwroot/",
+      "ContentRoot": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/",
       "BasePath": "_content/Portfolio",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/home/sho/Documents/Blazor/Portfolio/obj/Debug/net8.0/scopedcss/bundle/Portfolio.styles.css",
+      "Identity": "/home/sho/Documents/Blazor/BlazorPortfolio/obj/Debug/net8.0/scopedcss/bundle/Portfolio.styles.css",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "/home/sho/Documents/Blazor/Portfolio/obj/Debug/net8.0/scopedcss/bundle/",
+      "ContentRoot": "/home/sho/Documents/Blazor/BlazorPortfolio/obj/Debug/net8.0/scopedcss/bundle/",
       "BasePath": "_content/Portfolio",
       "RelativePath": "Portfolio.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/sho/Documents/Blazor/Portfolio/obj/Debug/net8.0/scopedcss/bundle/Portfolio.styles.css"
+      "OriginalItemSpec": "/home/sho/Documents/Blazor/BlazorPortfolio/obj/Debug/net8.0/scopedcss/bundle/Portfolio.styles.css"
     },
     {
-      "Identity": "/home/sho/Documents/Blazor/Portfolio/obj/Debug/net8.0/scopedcss/projectbundle/Portfolio.bundle.scp.css",
+      "Identity": "/home/sho/Documents/Blazor/BlazorPortfolio/obj/Debug/net8.0/scopedcss/projectbundle/Portfolio.bundle.scp.css",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "/home/sho/Documents/Blazor/Portfolio/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "ContentRoot": "/home/sho/Documents/Blazor/BlazorPortfolio/obj/Debug/net8.0/scopedcss/projectbundle/",
       "BasePath": "_content/Portfolio",
       "RelativePath": "Portfolio.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/sho/Documents/Blazor/Portfolio/obj/Debug/net8.0/scopedcss/projectbundle/Portfolio.bundle.scp.css"
+      "OriginalItemSpec": "/home/sho/Documents/Blazor/BlazorPortfolio/obj/Debug/net8.0/scopedcss/projectbundle/Portfolio.bundle.scp.css"
     },
     {
-      "Identity": "/home/sho/Documents/Blazor/Portfolio/wwwroot/app.css",
+      "Identity": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/app.css",
       "SourceId": "Portfolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sho/Documents/Blazor/Portfolio/wwwroot/",
+      "ContentRoot": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/",
       "BasePath": "_content/Portfolio",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot/app.css"
     },
     {
-      "Identity": "/home/sho/Documents/Blazor/Portfolio/wwwroot/bootstrap/bootstrap.min.css",
+      "Identity": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/bootstrap/bootstrap.min.css",
       "SourceId": "Portfolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sho/Documents/Blazor/Portfolio/wwwroot/",
+      "ContentRoot": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/",
       "BasePath": "_content/Portfolio",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css"
     },
     {
-      "Identity": "/home/sho/Documents/Blazor/Portfolio/wwwroot/bootstrap/bootstrap.min.css.map",
+      "Identity": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/bootstrap/bootstrap.min.css.map",
       "SourceId": "Portfolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sho/Documents/Blazor/Portfolio/wwwroot/",
+      "ContentRoot": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/",
       "BasePath": "_content/Portfolio",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Identity": "/home/sho/Documents/Blazor/Portfolio/wwwroot/favicon.png",
+      "Identity": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/favicon.png",
       "SourceId": "Portfolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sho/Documents/Blazor/Portfolio/wwwroot/",
+      "ContentRoot": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/",
       "BasePath": "_content/Portfolio",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot/favicon.png"
     },
     {
-      "Identity": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/arrow.png",
+      "Identity": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/images/arrow.png",
       "SourceId": "Portfolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sho/Documents/Blazor/Portfolio/wwwroot/",
+      "ContentRoot": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/",
       "BasePath": "_content/Portfolio",
       "RelativePath": "images/arrow.png",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot/images/arrow.png"
     },
     {
-      "Identity": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/image1.jpg",
+      "Identity": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/images/image1.jpg",
       "SourceId": "Portfolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sho/Documents/Blazor/Portfolio/wwwroot/",
+      "ContentRoot": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/",
       "BasePath": "_content/Portfolio",
       "RelativePath": "images/image1.jpg",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot/images/image1.jpg"
     },
     {
-      "Identity": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/image2.jpg",
+      "Identity": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/images/image2.jpg",
       "SourceId": "Portfolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sho/Documents/Blazor/Portfolio/wwwroot/",
+      "ContentRoot": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/",
       "BasePath": "_content/Portfolio",
       "RelativePath": "images/image2.jpg",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot/images/image2.jpg"
     },
     {
-      "Identity": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/image3.jpg",
+      "Identity": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/images/image3.jpg",
       "SourceId": "Portfolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sho/Documents/Blazor/Portfolio/wwwroot/",
+      "ContentRoot": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/",
       "BasePath": "_content/Portfolio",
       "RelativePath": "images/image3.jpg",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot/images/image3.jpg"
     },
     {
-      "Identity": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/image4.jpg",
+      "Identity": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/images/image4.jpg",
       "SourceId": "Portfolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sho/Documents/Blazor/Portfolio/wwwroot/",
+      "ContentRoot": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/",
       "BasePath": "_content/Portfolio",
       "RelativePath": "images/image4.jpg",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot/images/image4.jpg"
     },
     {
-      "Identity": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/image5.jpg",
+      "Identity": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/images/image5.jpg",
       "SourceId": "Portfolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sho/Documents/Blazor/Portfolio/wwwroot/",
+      "ContentRoot": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/",
       "BasePath": "_content/Portfolio",
       "RelativePath": "images/image5.jpg",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot/images/image5.jpg"
     },
     {
-      "Identity": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/image6.jpg",
+      "Identity": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/images/image6.jpg",
       "SourceId": "Portfolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sho/Documents/Blazor/Portfolio/wwwroot/",
+      "ContentRoot": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/",
       "BasePath": "_content/Portfolio",
       "RelativePath": "images/image6.jpg",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot/images/image6.jpg"
     },
     {
-      "Identity": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/image7.jpg",
+      "Identity": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/images/image7.jpg",
       "SourceId": "Portfolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sho/Documents/Blazor/Portfolio/wwwroot/",
+      "ContentRoot": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/",
       "BasePath": "_content/Portfolio",
       "RelativePath": "images/image7.jpg",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot/images/image7.jpg"
     },
     {
-      "Identity": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/image8.jpg",
+      "Identity": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/images/image8.jpg",
       "SourceId": "Portfolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sho/Documents/Blazor/Portfolio/wwwroot/",
+      "ContentRoot": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/",
       "BasePath": "_content/Portfolio",
       "RelativePath": "images/image8.jpg",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot/images/image8.jpg"
     },
     {
-      "Identity": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/image9.jpg",
+      "Identity": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/images/image9.jpg",
       "SourceId": "Portfolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sho/Documents/Blazor/Portfolio/wwwroot/",
+      "ContentRoot": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/",
       "BasePath": "_content/Portfolio",
       "RelativePath": "images/image9.jpg",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot/images/image9.jpg"
     },
     {
-      "Identity": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/JamesFitzePic.jpg",
+      "Identity": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/images/JamesFitzePic.jpg",
       "SourceId": "Portfolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sho/Documents/Blazor/Portfolio/wwwroot/",
+      "ContentRoot": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/",
       "BasePath": "_content/Portfolio",
       "RelativePath": "images/JamesFitzePic.jpg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot/images/JamesFitzePic.jpg"
     },
     {
-      "Identity": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/JamesFitzePic.png",
+      "Identity": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/images/JamesFitzePic.png",
       "SourceId": "Portfolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sho/Documents/Blazor/Portfolio/wwwroot/",
+      "ContentRoot": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/",
       "BasePath": "_content/Portfolio",
       "RelativePath": "images/JamesFitzePic.png",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot/images/JamesFitzePic.png"
     },
     {
-      "Identity": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/JamesFitzePic(1).png",
+      "Identity": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/images/JamesFitzePic(1).png",
       "SourceId": "Portfolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sho/Documents/Blazor/Portfolio/wwwroot/",
+      "ContentRoot": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/",
       "BasePath": "_content/Portfolio",
       "RelativePath": "images/JamesFitzePic(1).png",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot/images/JamesFitzePic(1).png"
     },
     {
-      "Identity": "/home/sho/Documents/Blazor/Portfolio/wwwroot/svg/folderIcon.svg",
+      "Identity": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/svg/folderIcon.svg",
       "SourceId": "Portfolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sho/Documents/Blazor/Portfolio/wwwroot/",
+      "ContentRoot": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/",
       "BasePath": "_content/Portfolio",
       "RelativePath": "svg/folderIcon.svg",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot/svg/folderIcon.svg"
     },
     {
-      "Identity": "/home/sho/Documents/Blazor/Portfolio/wwwroot/svg/homeIcon.svg",
+      "Identity": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/svg/homeIcon.svg",
       "SourceId": "Portfolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sho/Documents/Blazor/Portfolio/wwwroot/",
+      "ContentRoot": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/",
       "BasePath": "_content/Portfolio",
       "RelativePath": "svg/homeIcon.svg",
       "AssetKind": "All",

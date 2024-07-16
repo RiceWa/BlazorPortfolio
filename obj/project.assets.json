@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/sho/Documents/Blazor/Portfolio/Portfolio.csproj",
+      "projectUniqueName": "/home/sho/Documents/Blazor/BlazorPortfolio/Portfolio.csproj",
       "projectName": "Portfolio",
-      "projectPath": "/home/sho/Documents/Blazor/Portfolio/Portfolio.csproj",
+      "projectPath": "/home/sho/Documents/Blazor/BlazorPortfolio/Portfolio.csproj",
       "packagesPath": "/home/sho/.nuget/packages/",
-      "outputPath": "/home/sho/Documents/Blazor/Portfolio/obj/",
+      "outputPath": "/home/sho/Documents/Blazor/BlazorPortfolio/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/sho/.nuget/NuGet/NuGet.Config"
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

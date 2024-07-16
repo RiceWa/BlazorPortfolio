@@ -1,83 +1,83 @@
 {
   "Files": [
     {
-      "Id": "/home/sho/Documents/Blazor/Portfolio/obj/Debug/net8.0/scopedcss/projectbundle/Portfolio.bundle.scp.css",
+      "Id": "/home/sho/Documents/Blazor/BlazorPortfolio/obj/Debug/net8.0/scopedcss/projectbundle/Portfolio.bundle.scp.css",
       "PackagePath": "staticwebassets/Portfolio.bundle.scp.css"
     },
     {
-      "Id": "/home/sho/Documents/Blazor/Portfolio/wwwroot/app.css",
+      "Id": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/app.css",
       "PackagePath": "staticwebassets/app.css"
     },
     {
-      "Id": "/home/sho/Documents/Blazor/Portfolio/wwwroot/bootstrap/bootstrap.min.css",
+      "Id": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/bootstrap/bootstrap.min.css",
       "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
     },
     {
-      "Id": "/home/sho/Documents/Blazor/Portfolio/wwwroot/bootstrap/bootstrap.min.css.map",
+      "Id": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/bootstrap/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Id": "/home/sho/Documents/Blazor/Portfolio/wwwroot/favicon.png",
+      "Id": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/favicon.png",
       "PackagePath": "staticwebassets/favicon.png"
     },
     {
-      "Id": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/JamesFitzePic(1).png",
+      "Id": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/images/JamesFitzePic(1).png",
       "PackagePath": "staticwebassets/images/JamesFitzePic(1).png"
     },
     {
-      "Id": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/JamesFitzePic.jpg",
+      "Id": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/images/JamesFitzePic.jpg",
       "PackagePath": "staticwebassets/images/JamesFitzePic.jpg"
     },
     {
-      "Id": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/JamesFitzePic.png",
+      "Id": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/images/JamesFitzePic.png",
       "PackagePath": "staticwebassets/images/JamesFitzePic.png"
     },
     {
-      "Id": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/arrow.png",
+      "Id": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/images/arrow.png",
       "PackagePath": "staticwebassets/images/arrow.png"
     },
     {
-      "Id": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/image1.jpg",
+      "Id": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/images/image1.jpg",
       "PackagePath": "staticwebassets/images/image1.jpg"
     },
     {
-      "Id": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/image2.jpg",
+      "Id": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/images/image2.jpg",
       "PackagePath": "staticwebassets/images/image2.jpg"
     },
     {
-      "Id": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/image3.jpg",
+      "Id": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/images/image3.jpg",
       "PackagePath": "staticwebassets/images/image3.jpg"
     },
     {
-      "Id": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/image4.jpg",
+      "Id": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/images/image4.jpg",
       "PackagePath": "staticwebassets/images/image4.jpg"
     },
     {
-      "Id": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/image5.jpg",
+      "Id": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/images/image5.jpg",
       "PackagePath": "staticwebassets/images/image5.jpg"
     },
     {
-      "Id": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/image6.jpg",
+      "Id": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/images/image6.jpg",
       "PackagePath": "staticwebassets/images/image6.jpg"
     },
     {
-      "Id": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/image7.jpg",
+      "Id": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/images/image7.jpg",
       "PackagePath": "staticwebassets/images/image7.jpg"
     },
     {
-      "Id": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/image8.jpg",
+      "Id": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/images/image8.jpg",
       "PackagePath": "staticwebassets/images/image8.jpg"
     },
     {
-      "Id": "/home/sho/Documents/Blazor/Portfolio/wwwroot/images/image9.jpg",
+      "Id": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/images/image9.jpg",
       "PackagePath": "staticwebassets/images/image9.jpg"
     },
     {
-      "Id": "/home/sho/Documents/Blazor/Portfolio/wwwroot/svg/folderIcon.svg",
+      "Id": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/svg/folderIcon.svg",
       "PackagePath": "staticwebassets/svg/folderIcon.svg"
     },
     {
-      "Id": "/home/sho/Documents/Blazor/Portfolio/wwwroot/svg/homeIcon.svg",
+      "Id": "/home/sho/Documents/Blazor/BlazorPortfolio/wwwroot/svg/homeIcon.svg",
       "PackagePath": "staticwebassets/svg/homeIcon.svg"
     },
     {
